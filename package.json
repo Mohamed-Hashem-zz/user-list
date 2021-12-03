@@ -23,8 +23,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint-staged": "lint-staged",
-    "stylelint-staged": "stylelint --syntax css",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
   },
   "eslintConfig": {
@@ -46,8 +44,6 @@
     ]
   },
   "devDependencies": {
-    "lint-staged": "^12.1.2",
-    "pre-commit": "^1.2.2",
     "prettier": "^2.5.0"
   }
 }
